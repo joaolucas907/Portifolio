@@ -4,7 +4,6 @@ import { useState } from 'react';
 import { TypeAnimation } from 'react-type-animation';
 
 const Home = () =>{
-    "Venha me conhecer", "Clique em algo no menu para navegar", "Espero que goste"
 
     return(
         <motion.div
