@@ -9,9 +9,9 @@ const Segundo = () =>{
         animate={{ opacity: 1 }}
         exit={{ opacity: 0.1}}
         >
-            <Link to="/Projetos/1"> Anterior </Link>
+            <Link to="/portifolio/Projetos/1"> Anterior </Link>
                 <nav>Projeto 2</nav> 
-            <Link to="/Projetos/3"> Proximo </Link>
+            <Link to="/portifolio/Projetos/3"> Proximo </Link>
         </motion.div>
     )
 }

@@ -10,8 +10,8 @@ const Infraestrutura = () =>{
         exit={{ opacity: 0.1}}
         >
         <nav className='text-xl mb-4'>Infraestrutura</nav> 
-        <Link to="/Especialidades/1"> Anterior </Link>
-        <Link to="/Especialidades/3"> Proximo </Link>
+        <Link to="/portifolio/Especialidades/1"> Anterior </Link>
+        <Link to="/portifolio/Especialidades/3"> Proximo </Link>
         </motion.div>
     )
 }

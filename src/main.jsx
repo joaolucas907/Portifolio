@@ -9,10 +9,8 @@ import {createBrowserRouter, RouterProvider} from "react-router-dom"
 import Home from "./routers/Home.jsx"
 import Especialidades from "./routers/Especialidades.jsx"
 import ErrorPage from "./ErrorPage.jsx"
-import Primeiro from './routers/projetos/Primeiro.jsx'
-import Segundo from './routers/projetos/Segundo.jsx'
-import Terceiro from './routers/projetos/Terceiro.jsx'
 import Projetos from './routers/Projetos.jsx'
+import Experiencias from "./routers/Experiencias.jsx"
 
 const router = createBrowserRouter([
   {
@@ -21,17 +19,22 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
     children: [
       {
-        path: "/",
+        path: "/portifolio/",
         element: <Home />
       },
       {
-        path: "/especialidades/:id",
+        path: "/portifolio/especialidades/:id",
         element: <Especialidades />,
      
       },
       {
-        path: "/projetos/:id",
+        path: "/portifolio/projetos/:id",
         element: <Projetos />,
+     
+      },      
+      {
+        path: "/portifolio/experiencias/:id",
+        element: <Experiencias />,
      
       }
     ]

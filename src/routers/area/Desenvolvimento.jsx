@@ -10,7 +10,7 @@ const Desenvovimento = () =>{
         exit={{ opacity: 0.1}}
         >
             <nav className='text-xl mb-4'>Desenvovimento</nav> 
-            <Link to="/Especialidades/2"> Proximo </Link>
+            <Link to="/portifolio/Especialidades/2"> Proximo </Link>
         </motion.div>
     )
 }

@@ -10,7 +10,7 @@ const Primeiro = () =>{
         exit={{ opacity: 0.1}}
         >
             <nav>Projeto 1</nav> 
-            <Link to="/Projetos/2"> Proximo </Link>
+            <Link to="/portifolio/Projetos/2"> Proximo </Link>
         </motion.div>
     )
 }

@@ -10,7 +10,7 @@ const Softskill = () =>{
         exit={{ opacity: 0.1}}
         >
         <nav className='text-xl mb-4'>Soft Skill</nav> 
-        <Link to="/Especialidades/2"> Anterior </Link>
+        <Link to="/portifolio/Especialidades/2"> Anterior </Link>
         </motion.div>
     )
 }

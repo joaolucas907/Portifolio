@@ -17,16 +17,16 @@ const Navegacao = () =>{
                 <div className='sidebar rounded-md sm:hidden'>
                     <div>
                         <div >
-                        <label onClick={fechar}><Link to="/">Home</Link></label>
+                        <label onClick={fechar}><Link to="/portifolio/">Home</Link></label>
                         </div>
                         <div className="mt-3 py-1">
-                        <label onClick={fechar}><Link to="/Especialidades/1">Especialidades</Link></label>
+                        <label onClick={fechar}><Link to="/portifolio/Especialidades/1">Especialidades</Link></label>
                         </div>
                         <div className="mt-3 py-1">
-                        <label onClick={fechar}><Link to="/Projetos/1">Projetos</Link></label>
+                        <label onClick={fechar}><Link to="/portifolio/Projetos/1">Projetos</Link></label>
                         </div>
                         <div className="mt-3 py-1">
-                        <label onClick={fechar}><Link to="/Experiencias">Experiencias</Link></label>
+                        <label onClick={fechar}><Link to="/portifolio/Experiencias/1">Experiencias</Link></label>
                         </div>
                     </div>
                 </div>
@@ -35,22 +35,22 @@ const Navegacao = () =>{
                     <div className="relative after:w-0 after:h-0.5 after:absolute after:bottom-0 
                     after:left-0 after:bg-black after:transition-all after:duration-200 after:ease-in-out 
                     hover:after:w-full">
-                        <Link to="/">Home</Link>
+                        <Link to="/portifolio/">Home</Link>
                     </div >
                     <div className="relative after:w-0 after:h-0.5 after:absolute after:bottom-0 
                     after:left-0 after:bg-black after:transition-all after:duration-200 after:ease-in-out 
                     hover:after:w-full">
-                        <Link to="/Especialidades/1">Especialidades</Link>
+                        <Link to="/portifolio/Especialidades/1">Especialidades</Link>
                     </div>
                     <div className="relative after:w-0 after:h-0.5 after:absolute after:bottom-0 
                     after:left-0 after:bg-black after:transitio-all after:duration-200 after:ease-in-out 
                     hover:after:w-full ">
-                        <Link to="/Projetos/1">Projetos</Link>
+                        <Link to="/portifolio/Projetos/1">Projetos</Link>
                     </div>
                     <div className="relative after:w-0 after:h-0.5 after:absolute after:bottom-0 
                     after:left-0 after:bg-black after:transition-all after:duration-200 after:ease-in-out 
                     hover:after:w-full">
-                        <Link to="/Experiencias">Experiencias</Link>
+                        <Link to="/portifolio/Experiencias/1">Experiencias</Link>
                     </div>
             </nav>
             <div className="flex ml-auto ">

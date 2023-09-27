@@ -9,7 +9,7 @@ const Terceiro = () =>{
         animate={{ opacity: 1 }}
         exit={{ opacity: 0.1}}
         >
-            <Link to="/Projetos/2"> Anterior </Link>
+            <Link to="/portifolio/Projetos/2"> Anterior </Link>
                 <nav>Projeto 3</nav> 
         </motion.div>
     )
