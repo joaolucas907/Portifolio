@@ -1,0 +1,159 @@
+@keyframes animar {
+    0%{
+        transform: translateY(140vh) scale(0.3);
+    }
+    100%{
+        transform: translateY(-10vh) scale(1);
+    }
+}
+.estrelaP{
+    width: 6px;
+    height: 6px;
+    background-color: white;
+    margin: 0 4px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.3),
+    0 0 30px rgba(255, 255, 255, 1),
+    0 0  55px rgba(255, 255, 255, 1);
+    animation: animar calc(120s / var(--i)) infinite linear;
+}
+.estrelaMP{
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    margin: 0 4px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.3),
+    0 0 35px rgba(255, 255, 255, 1),
+    0 0  50px rgba(255, 255, 255, 1);
+    animation: animar calc(110s / var(--i)) infinite linear;
+}
+.estrelaM{
+    width: 14px;
+    height: 14px;
+    background-color: rgb(104, 124, 238);
+    margin: 0 5px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 8px rgba(104, 124, 238, 0.3),
+    0 0 40px rgba(255, 255, 255, 1),
+    0 0  60px rgba(255, 255, 255, 1);
+    animation: animar calc(85s / var(--i)) infinite linear;
+}
+.estrelaMG{
+    width: 17px;
+    height: 17px;
+    background-color: white;
+    margin: 0 7px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.3),
+    0 0 50px rgba(255, 255, 255, 1),
+    0 0 85px rgba(255, 255, 255, 1);
+    animation: animar calc(60s / var(--i)) infinite linear;
+}
+.estrelaG{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(236, 167, 121);
+    margin: 0 9px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 8px rgba(236, 167, 121, 0.3),
+    0 0 60px rgba(255, 255, 255, 1),
+    0 0  100px rgba(255, 255, 255, 1);
+    animation: animar calc(45s / var(--i)) infinite linear;
+}
+body{
+    min-height: 100vh;
+    background-color: black;
+}
+.universo{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    z-index: -1;
+}
+.constelacao{
+    position: absolute;
+    display: flex;
+}
+
+.textSpaw{
+    display: inline-block;
+    animation: typing 3s steps(30, end), blink-caret 0.5s step-end infinite;
+    white-space: pre-wrap;
+    overflow: visible;
+    border-right: 3px solid;
+}
+/* CSS Menu*/
+.menu{
+    width: max-content;
+
+    margin-top: 6px;
+    flex-direction: column;
+    gap: 4px;
+    top: 14px;
+    left: 50px;
+    position: absolute;
+    z-index: 3;
+    cursor: pointer;
+}
+
+.menu::before, .menu::after, .menu div{
+
+    content: "";
+    width: 24px;
+    height: 3px;
+    background-color: black;
+    border-radius: 9999px ;
+    transform-origin: left center;
+    transition: opacity 200ms ease-in-out, width 200ms ease-in-out, 
+    rotate 200ms ease-in-out, translate 200ms ease-in-out, background-color 200ms ease-in-out;
+    
+}
+
+.sidebar{
+    transition: 450ms ease-in-out;
+    clip-path: circle(0 at 0 0);
+    padding: 1.5rem;
+    padding-top: 50px;
+    color: white;
+    background-color: rgb(61, 61, 61);
+    width: 140px;
+    height: 205px;
+    position: absolute;
+    z-index: 2;
+    top: 6px;
+    left: 30px;
+}
+
+#checkbox{
+    appearance: none;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    pointer-events: none;
+}
+
+[id="checkbox"]:checked + .junta .menu div{
+    opacity: 0;
+    width: 0;
+}
+
+[id="checkbox"]:checked + .junta  .menu::before{
+    rotate: 40deg;
+    width: 22px;
+    translate: 0 2px;
+    background-color: white;
+    }
+
+[id="checkbox"]:checked + .junta .menu::after{
+    rotate: -40deg;
+    width: 22px;   
+    translate: 0 2px; 
+    background-color: white;
+}
+
+[id="checkbox"]:checked + .junta  .sidebar{
+    clip-path: circle(300px at 0 0);
+}
