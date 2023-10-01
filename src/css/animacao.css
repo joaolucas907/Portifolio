@@ -10,7 +10,7 @@
     width: 6px;
     height: 6px;
     background-color: white;
-    margin: 0 4px;
+    margin: 0 1vw;
     border-radius: 50%;
     box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.3),
     0 0 30px rgba(255, 255, 255, 1),
@@ -21,7 +21,7 @@
     width: 10px;
     height: 10px;
     background-color: white;
-    margin: 0 4px;
+    margin: 0 1vw;
     border-radius: 50%;
     box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.3),
     0 0 35px rgba(255, 255, 255, 1),
@@ -32,7 +32,7 @@
     width: 14px;
     height: 14px;
     background-color: rgb(104, 124, 238);
-    margin: 0 5px;
+    margin: 0 1vw;
     border-radius: 50%;
     box-shadow: 0 0 0 8px rgba(104, 124, 238, 0.3),
     0 0 40px rgba(255, 255, 255, 1),
@@ -43,7 +43,7 @@
     width: 17px;
     height: 17px;
     background-color: white;
-    margin: 0 7px;
+    margin: 0 1vw;
     border-radius: 50%;
     box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.3),
     0 0 50px rgba(255, 255, 255, 1),
@@ -54,7 +54,7 @@
     width: 20px;
     height: 20px;
     background-color: rgb(236, 167, 121);
-    margin: 0 9px;
+    margin: 0 1vw;
     border-radius: 50%;
     box-shadow: 0 0 0 8px rgba(236, 167, 121, 0.3),
     0 0 60px rgba(255, 255, 255, 1),
@@ -157,3 +157,23 @@ body{
 [id="checkbox"]:checked + .junta  .sidebar{
     clip-path: circle(300px at 0 0);
 }
+
+/*animacao home*/
+
+.logo {
+    height: 7em;
+    animation: logo-spin 4s infinite linear;
+  }
+.logo:hover {
+    filter: drop-shadow(0 0 2em #0011ffaa);
+  }
+.logo.react:hover {
+    filter: drop-shadow(0 0 2em #0081faaa);
+  }
+  
+  @keyframes logo-spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  

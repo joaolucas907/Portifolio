@@ -2,21 +2,24 @@ import React from 'react'
 import {useParams, useLocation} from 'react-router-dom'
 import {AnimatePresence, motion} from 'framer-motion'
 
-import Desenvovimento from './area/Desenvolvimento'
+import Frontend from './area/Frontend'
 import Infraestrutura from './area/Infraestrutura'
 import Softskill from './area/Softskill'
+import Backend from './area/Backend'
 
-const Especialidades = () =>{
+const Conhecimentos = () =>{
 
     const location = useLocation()
 
     const { id } = useParams()
     if(id == 1){
-        var especialidades = <Desenvovimento/>
+        var especialidades = <Frontend/>
     }else if(id == 2){
+        var especialidades = <Backend/>
+    }else if(id == 3){
         var especialidades = <Infraestrutura/>
    
-    }else if(id == 3){
+    }else if(id == 4){
         var especialidades = <Softskill/>
 
     }
@@ -28,7 +31,7 @@ const Especialidades = () =>{
         exit={{ opacity: 0}}
         >
             <div>
-                <div className='text-3xl mb-3'>Especialidade</div>
+                <div className='text-3xl mb-3'>Conhecimentos</div>
                 <AnimatePresence mode='wait'> 
                     <div location={location} key={location.pathname}>
                         {especialidades}
@@ -39,4 +42,4 @@ const Especialidades = () =>{
     )
 }
 
-export default Especialidades
+export default Conhecimentos

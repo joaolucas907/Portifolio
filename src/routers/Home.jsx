@@ -2,6 +2,7 @@ import React from 'react'
 import {motion} from 'framer-motion'
 import { useState } from 'react';
 import { TypeAnimation } from 'react-type-animation';
+import react from "/Portifolio/src/imagens/react.svg";
 
 const Home = () =>{
 
@@ -18,7 +19,7 @@ const Home = () =>{
                         'Olá seja bem-vindo ao meu portifolio',
                         1000,
                         'Clique em algo no menu para navegar e me conhecer melhor',
-                        1500,
+                        800,
                         'Espero que goste',
                         1000,
                     ]}
@@ -26,12 +27,18 @@ const Home = () =>{
                     speed={20}
                     repeat={0}
                     />
-                
+                    <div className='hidden sm:block text-center lg:mt-16'>
+                    <div>Site feito em react no vite com tailwind</div>
+                    <div className='flex justify-center items-center h-4/6'>                       
+                        <img src={react} className="logo react sm:h-32" alt="React logo" />             
+                    </div>
+                    </div>
             </div>
         </motion.div>
 
     )
 
+    
 }
 
 export default Home

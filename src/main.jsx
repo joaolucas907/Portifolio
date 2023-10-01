@@ -7,7 +7,7 @@ import './css/animacao.css'
 import {createBrowserRouter, RouterProvider} from "react-router-dom"
 
 import Home from "./routers/Home.jsx"
-import Especialidades from "./routers/Especialidades.jsx"
+import Conhecimentos from "./routers/Conhecimentos.jsx"
 import ErrorPage from "./ErrorPage.jsx"
 import Projetos from './routers/Projetos.jsx'
 import Experiencias from "./routers/Experiencias.jsx"
@@ -19,21 +19,21 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
     children: [
       {
-        path: "/portifolio/",
+        path: "/Portifolio/",
         element: <Home />
       },
       {
-        path: "/portifolio/especialidades/:id",
-        element: <Especialidades />,
+        path: "/Portifolio/Conhecimentos/:id",
+        element: <Conhecimentos />,
      
       },
       {
-        path: "/portifolio/projetos/:id",
+        path: "/Portifolio/Projetos/:id",
         element: <Projetos />,
      
       },      
       {
-        path: "/portifolio/experiencias/:id",
+        path: "/Portifolio/Experiencias/:id",
         element: <Experiencias />,
      
       }
