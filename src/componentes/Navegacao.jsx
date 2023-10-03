@@ -54,13 +54,13 @@ const Navegacao = () =>{
                     </div>
             </nav>
             <div className="flex ml-auto ">
-                <a href="//www.linkedin.com/in/joao-lucas-b54bab163" target="_blank" className="mx-3 p-1">
+                <a href="https://www.linkedin.com/in/joao-lucas-b54bab163" target="_blank" className="mx-3 p-1">
                     <BsLinkedin  className=" hover:color-white hover:w-10 hover:h-10 m-auto mb-3 hover:p-1
                 trasition ease-in-out duration-300 hover:bg-blue-500 rounded-md" size={25}/></a>
-                <a href="//https://github.com/joaolucas907?tab=repositories" target="_blank" className="mx-3 p-1 ">
+                <a href="https://github.com/joaolucas907?tab=repositories" target="_blank" className="mx-3 p-1 ">
                     <BsGithub className=" hover:w-10 hover:h-10 m-auto mb-3 hover:p-1
                 trasition ease-in-out duration-300 hover:bg-orange-500 rounded-md" size={25}/></a>
-                <a href="//https://wa.me/5581996730611" target="_blank" className="mx-3 p-1" >
+                <a href="https://wa.me/5581996730611" target="_blank" className="mx-3 p-1" >
                     <IoLogoWhatsapp className=" hover:w-10 hover:h-10 m-auto mb-3 hover:p-1
                 trasition ease-in-out duration-300 hover:bg-green-500 rounded-md" size={25}/></a>
             </div>

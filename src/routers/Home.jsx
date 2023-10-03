@@ -2,7 +2,6 @@ import React from 'react'
 import {motion} from 'framer-motion'
 import { useState } from 'react';
 import { TypeAnimation } from 'react-type-animation';
-import react from "/Portifolio/src/imagens/react.svg";
 
 const Home = () =>{
 
@@ -30,7 +29,7 @@ const Home = () =>{
                     <div className='hidden sm:block text-center lg:mt-16'>
                     <div>Site feito em react no vite com tailwind</div>
                     <div className='flex justify-center items-center h-4/6'>                       
-                        <img src={react} className="logo react sm:h-32" alt="React logo" />             
+                        <img src="/src/imagens/react.svg" className="logo react sm:h-32" alt="React logo" />             
                     </div>
                     </div>
             </div>

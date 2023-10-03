@@ -32,17 +32,17 @@ const Primeiro = () =>{
 
                 
                     <div className='slide first'>
-                        <img src="/Portifolio/src/imagens/condominio/condominio1.png" alt="" /></div>
+                        <img src="/src/imagens/condominio/condominio1.png" alt="" /></div>
                     <div className='slide'>
-                        <img src="/Portifolio/src/imagens/condominio/condominio2.png" alt="" /></div>
+                        <img src="/src/imagens/condominio/condominio2.png" alt="" /></div>
                     <div className='slide'>
-                        <img src="/Portifolio/src/imagens/condominio/condominio3.png" alt="" /></div>
+                        <img src="/src/imagens/condominio/condominio3.png" alt="" /></div>
                     <div className='slide'>
-                        <img src="/Portifolio/src/imagens/condominio/condominio4.png" alt="" /></div>
+                        <img src="/src/imagens/condominio/condominio4.png" alt="" /></div>
                     <div className='slide'>
-                        <img src="/Portifolio/src/imagens/condominio/condominio5.png" alt="" /></div>
+                        <img src="/src/imagens/condominio/condominio5.png" alt="" /></div>
                     <div className='slide'>
-                        <img src="/Portifolio/src/imagens/condominio/condominio6.png" alt="" /></div>
+                        <img src="/src/imagens/condominio/condominio6.png" alt="" /></div>
                     
                     <div className='navegation-check'>
                         <div className='btn-check-1'></div>
@@ -77,7 +77,7 @@ const Primeiro = () =>{
             visitas associando a o seu nome e atualizar apenas os status das visitas cadatradas no seu nome,
             assim não conseguindo vê visita de outros moradores</div> 
             <div className='flex  relative top-full'>
-            <a href="//https://github.com/joaolucas907?tab=repositories" target="_blank" className="mx-3 p-1 ">
+            <a href="https://github.com/joaolucas907?tab=repositories" target="_blank" className="mx-3 p-1 ">
                     <BsGithub className=" hover:w-8 hover:h-8 m-auto mb-3 hover:p-1
                 trasition ease-in-out duration-300 hover:bg-orange-500 rounded-md" size={25}/></a>
                 <div className='ml-auto my-auto'>
