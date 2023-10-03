@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import { Outlet } from 'react-router-dom' 
-
 import Navegacao from './componentes/Navegacao'
 import SobreMim from './componentes/SobreMim'
 
