@@ -12,14 +12,14 @@ const SobreMim = () =>{
           full stack com conhecimentos em infraestrutura. Dês de pequeno sempre fui entusiasmado 
           pela área de tecnologia e hoje em dia sou apaixonado por ela, sempre buscando por mais conhecimento.
           As linguagens que eu mais domínio são <b>PHP</b> e <b>JavaScript</b>, tenho 
-          domínio também em tecnologias como <b>Banco de dados relacional e não relacional</b>.
+          domínio também em tecnologias como <b>Banco de dados relacional</b>.
           Além disso tenho experiencias com <b>Linux CentOs e Debian</b> e com <b>Vituais machines</b>
           </div>
         </div>
         <div className='m-auto mt-6 w-28  h-28
               sm:my-auto sm:mr-4 sm:w-32 sm:h-32
               lg:relative lg:mx-auto lg:mt-6 lg:w-36 lg:h-36'>
-          <img src="/Portifolio/src/imagens/fotoperfil.png" className='rounded-full' />
+          <img src="src/imagens/fotoperfil.png" className='rounded-full' />
         </div>
       </div>
 

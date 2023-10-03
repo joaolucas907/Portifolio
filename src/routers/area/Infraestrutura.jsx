@@ -32,7 +32,7 @@ const grafana = "Grafana é uma API que pega dados de plataformas de monitoramen
                     <SiDocker className='m-2' color='blue' size={42}/></div>
             <div className='bg-white shadow rounded-md cursor-pointer border-sky-500 hover:border-2 h-16 sm:h-14'
              onClick={(e)=>setTecinfra(zabbix)}>
-                    <img src='/Portifolio/src/imagens/zabbix.png' className='m-1 w-12 ' color='blue' size={42}/></div>
+                    <img src='/src/imagens/zabbix.png' className='m-1 w-12 ' color='blue' size={42}/></div>
             <div className='bg-white shadow rounded-md cursor-pointer border-sky-500 hover:border-2 h-16 sm:h-14'
              onClick={(e)=>setTecinfra(grafana)}>
                     <SiGrafana className='m-2' color='orange' size={42}/></div>
