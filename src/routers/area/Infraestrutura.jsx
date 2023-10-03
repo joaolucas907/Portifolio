@@ -43,11 +43,11 @@ const grafana = "Grafana é uma API que pega dados de plataformas de monitoramen
             <Link to="/Portifolio/Conhecimentos/2"> 
             <AiOutlineArrowLeft className='w-8 h-8 ml-4 p-2 rounded-full bg-green-600 flex 
                 justify-center items-center hover:h-10 hover:w-10 hover:text-xltrasition ease-in-out 
-                duration-300' color='white' size={20}/>  </Link>
+                duration-300 cursor-pointer' color='white' size={20}/>  </Link>
             <Link to="/Portifolio/Conhecimentos/4"> 
             <AiOutlineArrowRight className='w-8 h-8 ml-4 p-2 rounded-full bg-green-600 flex 
                 justify-center items-center hover:h-10 hover:w-10 hover:text-xltrasition ease-in-out 
-                duration-300' color='white' size={20}/>  </Link>
+                duration-300 cursor-pointer' color='white' size={20}/>  </Link>
         </div>
         </motion.div>
     )

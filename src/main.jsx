@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './css/index.css'
 import './css/animacao.css'
+import './css/slide.css'
 
 import {createBrowserRouter, RouterProvider} from "react-router-dom"
 

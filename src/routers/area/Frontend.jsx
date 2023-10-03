@@ -10,8 +10,8 @@ const Frontend = () =>{
 const html5 = "HTML5 é um linguagem de marcação para web, sei fazer tudo de necessario nela e controlar bem as div"
 const css3 = "CSS3 é uma das maneiras de estilização web, sei todas formatações basica dela alem de utilizar transições e responsividade"
 const tailwind = "Tailwind é um framework que utiliza classes para mais produtividade na produção de codigos evitando o programador ter que criar classes, todo meu conhecimento que tenho em CSS3 se aplica aqui"
-const bootstrap = "Booststrap é um framework front-end que fornece estruturas CSS para criação de sites reponsivos, sei ir na internet e pegar algum template que preciso para implementar no meu site"
-const javascript = "Javascript é uma linguagem de programação para adicionar interatividade ao site, meu conhecimento em javascript se resume a selecionar elementos e passar parametros para o back-end fazer a magia acontecer"
+const bootstrap = "Booststrap é um framework front-end que fornece estruturas CSS para criação de sites reponsivos, sei ir na internet e pegar algum template que preciso para implementar no meu site quando necessario"
+const javascript = "Javascript é uma linguagem de programação para adicionar interatividade ao site, meu conhecimento em javascript se resume a selecionar elementos e passar parametros para o back-end fazer a magia acontecer e utilizar ele para fazer alguns tipos de formatação"
 const react = "React é uma biblioteca criada para construir telas de forma declarativa baseado em JavaScript, aonde utiliza arquivos 'jsx' que é um arquivo que mistura suas declarações HTML com JavaScript, meu conhecimento nela é Routers, Componentes, useStatus entre outras bibliotecas"
 const jquery = "Jquery é uma biblioteca JavaScript, sua função é basicamente fazer uma simplificação dos comandos JavaScript, deixando-os mais praticos, sei fazer requisições mais especificas utilizando nomeclaturas baseado no Jquery e realizar requisições Ajax"
 
@@ -55,7 +55,7 @@ const jquery = "Jquery é uma biblioteca JavaScript, sua função é basicamente
                 <Link to="/Portifolio/Conhecimentos/2"> 
                 <AiOutlineArrowRight className='w-8 h-8 ml-4 p-2 rounded-full bg-green-600 flex 
                 justify-center items-center hover:h-10 hover:w-10 hover:text-xl trasition ease-in-out 
-                duration-300' color='white' size={20}/>  </Link>
+                duration-300  cursor-pointer' color='white' size={20}/>  </Link>
             </div>
         </motion.div>
     )
